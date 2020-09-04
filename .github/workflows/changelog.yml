@@ -26,6 +26,6 @@ jobs:
       env:
         REPO: ${{ github.repository }}
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CHANGELOG_PATH: strings/changelog.yml
+        CHANGELOG_PATH: strings/changelog.txt
         GIT_EMAIL: "sweptwastaken@protonmail.com"
-        GIT_NAME: "SweptWasTaken"
+        GIT_NAME: "PJBot"
